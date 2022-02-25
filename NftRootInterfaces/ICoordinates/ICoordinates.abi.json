@@ -1,0 +1,38 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "setCoordinates",
+			"inputs": [
+				{"name":"latitude","type":"bytes"},
+				{"name":"longtitude","type":"bytes"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getCoordinates",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"latitude","type":"bytes"},
+				{"name":"longtitude","type":"bytes"}
+			]
+		},
+		{
+			"name": "getCoordinatesResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"latitude","type":"bytes"},
+				{"name":"longtitude","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

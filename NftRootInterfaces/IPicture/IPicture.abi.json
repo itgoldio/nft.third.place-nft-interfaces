@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getPictureUrl",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"pictureUrl","type":"bytes"}
+			]
+		},
+		{
+			"name": "getPictureUrlResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"pictureUrl","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

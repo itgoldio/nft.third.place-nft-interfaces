@@ -1,0 +1,31 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getCollectionInfo",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"collectionName","type":"bytes"},
+				{"name":"collectionDescription","type":"bytes"},
+				{"name":"editionAmount","type":"uint256"}
+			]
+		},
+		{
+			"name": "getCollectionInfoResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"collectionName","type":"bytes"},
+				{"name":"collectionDescription","type":"bytes"},
+				{"name":"editionAmount","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
