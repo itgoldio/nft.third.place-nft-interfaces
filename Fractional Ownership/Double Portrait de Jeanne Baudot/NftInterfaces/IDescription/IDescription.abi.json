@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getDescription",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"dataDescription","type":"bytes"}
+			]
+		},
+		{
+			"name": "getDescriptionResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"dataDescription","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

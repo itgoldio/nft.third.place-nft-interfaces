@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getParticleMeta",
+			"inputs": [
+			],
+			"outputs": [
+				{"components":[{"name":"height","type":"uint128"},{"name":"width","type":"uint128"},{"name":"duration","type":"uint128"},{"name":"extra","type":"bytes"},{"name":"json","type":"bytes"}],"name":"particleMeta","type":"tuple"}
+			]
+		},
+		{
+			"name": "getParticleMetaResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"components":[{"name":"height","type":"uint128"},{"name":"width","type":"uint128"},{"name":"duration","type":"uint128"},{"name":"extra","type":"bytes"},{"name":"json","type":"bytes"}],"name":"particleMeta","type":"tuple"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

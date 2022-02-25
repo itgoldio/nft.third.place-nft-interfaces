@@ -1,0 +1,38 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "setBlackBox",
+			"inputs": [
+				{"name":"blackBoxUrl","type":"bytes"},
+				{"name":"blackBoxSchedule","type":"bytes"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getBlackBox",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"blackBoxUrl","type":"bytes"},
+				{"name":"blackBoxSchedule","type":"bytes"}
+			]
+		},
+		{
+			"name": "getBlackBoxResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"blackBoxUrl","type":"bytes"},
+				{"name":"blackBoxSchedule","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

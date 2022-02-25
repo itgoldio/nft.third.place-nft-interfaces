@@ -1,0 +1,29 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getGallery",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"galleryAddress","type":"address"},
+				{"name":"galleryRoyalty","type":"uint8"}
+			]
+		},
+		{
+			"name": "getGalleryResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"galleryAddress","type":"address"},
+				{"name":"galleryRoyalty","type":"uint8"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getLicense",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"license","type":"bytes"}
+			]
+		},
+		{
+			"name": "getLicenseResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"license","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

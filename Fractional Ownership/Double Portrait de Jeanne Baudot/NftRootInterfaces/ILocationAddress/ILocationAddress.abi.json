@@ -1,0 +1,35 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "setLocationAddress",
+			"inputs": [
+				{"name":"locationAddress","type":"bytes"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getLocationAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"locationAddress","type":"bytes"}
+			]
+		},
+		{
+			"name": "getLocationAddressResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"locationAddress","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

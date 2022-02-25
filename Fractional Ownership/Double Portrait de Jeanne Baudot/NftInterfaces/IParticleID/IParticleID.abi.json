@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getParticleId",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"particleId","type":"uint256"}
+			]
+		},
+		{
+			"name": "getParticleIdResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"particleId","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

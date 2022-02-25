@@ -1,0 +1,27 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getMIMEType",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"mimeType","type":"bytes"}
+			]
+		},
+		{
+			"name": "getMIMETypeResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"mimeType","type":"bytes"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
