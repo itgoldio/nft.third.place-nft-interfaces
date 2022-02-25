@@ -1,0 +1,29 @@
+{
+	"ABI version": 2,
+	"header": ["pubkey", "time", "expire"],
+	"functions": [
+		{
+			"name": "getPivotPixel",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"pivotPixelWidth","type":"uint256"},
+				{"name":"pivotPixelHeight","type":"uint256"}
+			]
+		},
+		{
+			"name": "getPivotPixelResponsible",
+			"inputs": [
+				{"name":"_answer_id","type":"uint32"}
+			],
+			"outputs": [
+				{"name":"pivotPixelWidth","type":"uint256"},
+				{"name":"pivotPixelHeight","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}
